@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion {{cookiecuterr.sdk_version}}
-    buildToolsVersion {{cookiecutter.build_tools_version}}
+    compileSdkVersion {{cookiecutter.sdk_version}}
+    buildToolsVersion "{{cookiecutter.build_tools_version}}"
     defaultConfig {
-        applicationId {{cookiecutter.app_id}}
+        applicationId "{{cookiecutter.app_id}}"
         minSdkVersion {{cookiecutter.minsdk_version}}
-        targetSdkVersion {{cookiecuterr.sdk_version}}
+        targetSdkVersion {{cookiecutter.sdk_version}}
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"

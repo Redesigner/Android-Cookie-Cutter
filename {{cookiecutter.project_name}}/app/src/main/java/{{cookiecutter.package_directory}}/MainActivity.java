@@ -1,4 +1,4 @@
-package edu.temple.helloworld;
+package {{cookiecutter.app_id}};
 
 import androidx.appcompat.app.AppCompatActivity;
 
