@@ -4,5 +4,5 @@
     "sdk_version": 29,
     "minsdk_version": 28,
     "build_tools_version": "29.0.2",
-    "package_dir" : "{{ cookiecutter.package_name | replace('.', '/') }}"
+    "package_dir" : "{{ cookiecutter.project_name | replace('.', '/') }}"
 }
